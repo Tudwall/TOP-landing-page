@@ -1,17 +1,29 @@
-body {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+a {
+  text-decoration: none;
+}
+
+img {
+  height: auto;
+  width: auto;
+}
+
+/*----HEADER----*/
 
 .header {
   background-color: #1f2937;
   display: flex;
   flex-direction: row;
   align-items: center;
+  padding: 8px;
 }
 
-.header-logo {
+.header-logo > a {
   font-size: 24px;
   color: #f9faf8;
   padding: 0 16px;
@@ -23,8 +35,51 @@ body {
   list-style: none;
 }
 
-.header-link-item {
+.header-link-item > a {
   padding: 0 16px;
   font-size: 18px;
   color: #e5e7eb;
+}
+
+/*----HERO CARD----*/
+
+.hero-card {
+  background-color: #1f2937;
+  padding: 32px 16px;
+  display: flex;
+}
+
+.hero-container-1 {
+  display: flex;
+  flex-direction: column;
+  padding: 0 16px;
+}
+
+.hero-title {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.hero-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero-button {
+  background-color: #3882f6;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  color: #e5e7eb;
+  font-weight: bolder;
+}
+
+.hero-container-2 {
+  display: flex;
+}
+
+.hero-card-img {
+  max-width: 50%;
+  padding: 0px 100px 100px 100px;
 }
