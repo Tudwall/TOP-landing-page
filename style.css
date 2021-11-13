@@ -190,3 +190,8 @@ img {
   background-color: #1f2937;
   color: #e5e7eb;
 }
+
+.footer a {
+  text-decoration: none;
+  color: #e5e7eb;
+}
