@@ -93,4 +93,28 @@ img {
   font-size: 36px;
   font-weight: bolder;
   color: #1f2937;
+  padding: 25px;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  margin: 20px;
+}
+
+.card img {
+  width: 150px;
+  height: 150px;
+  border: #3882f6 4px solid;
+  border-radius: 10px;
+}
+
+.card p {
+  text-align: center;
+  padding-top: 10px;
+  max-width: 150px;
 }
