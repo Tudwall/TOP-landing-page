@@ -50,6 +50,7 @@ img {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  padding: 100px 0px 100px 0px;
 }
 
 .hero-container-1 {
@@ -89,7 +90,7 @@ img {
 /*----CONTENT----*/
 
 .rand-info {
-  padding: 20px;
+  padding: 100px 0px 100px 0px;
 }
 
 .rand-info h2 {
@@ -129,7 +130,7 @@ img {
   background-color: #e5e7eb;
   display: flex;
   flex-direction: column;
-  padding: 20px 20%;
+  padding: 100px 20% 100px 20%;
 }
 
 .quote-text {
