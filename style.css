@@ -88,6 +88,10 @@ img {
 
 /*----CONTENT----*/
 
+.rand-info {
+  padding: 20px;
+}
+
 .rand-info h2 {
   text-align: center;
   font-size: 36px;
@@ -117,4 +121,27 @@ img {
   text-align: center;
   padding-top: 10px;
   max-width: 150px;
+}
+
+/*----QUOTE----*/
+
+.quote {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20%;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  text-align: justify;
+}
+
+.quote-author {
+  text-align: right;
+  font-weight: bolder;
+  font-size: 25px;
+  text-align: right;
 }
