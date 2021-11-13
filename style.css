@@ -79,7 +79,12 @@ img {
   padding: 8px 16px;
   color: #e5e7eb;
   font-weight: bolder;
-  max-width: 40%;
+  max-width: 15%;
+}
+
+.hero-button:hover {
+  color: #3882f6;
+  background-color: #e5e7eb;
 }
 
 .hero-card-img {
@@ -168,6 +173,12 @@ img {
   border-radius: 5px;
   color: #f9faf8;
   font-weight: bolder;
+}
+
+.cta-item button:hover {
+  cursor: pointer;
+  color: #3882f6;
+  background-color: #f9faf8;
 }
 
 /*----FOOTER----*/
