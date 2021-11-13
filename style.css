@@ -21,7 +21,7 @@ img {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 8px;
+  padding: 20px;
 }
 
 .header-logo > a {
@@ -168,4 +168,14 @@ img {
   border-radius: 5px;
   color: #f9faf8;
   font-weight: bolder;
+}
+
+/*----FOOTER----*/
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: #1f2937;
+  color: #e5e7eb;
 }
