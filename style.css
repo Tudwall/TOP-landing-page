@@ -47,12 +47,15 @@ img {
   background-color: #1f2937;
   padding: 32px 16px;
   display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .hero-container-1 {
   display: flex;
   flex-direction: column;
   padding: 0 16px;
+  max-width: 30%;
 }
 
 .hero-title {
@@ -63,6 +66,7 @@ img {
 
 .hero-text {
   font-size: 18px;
+  text-align: left;
   color: #e5e7eb;
 }
 
@@ -73,13 +77,10 @@ img {
   padding: 8px 16px;
   color: #e5e7eb;
   font-weight: bolder;
-}
-
-.hero-container-2 {
-  display: flex;
+  max-width: 40%;
 }
 
 .hero-card-img {
-  max-width: 50%;
-  padding: 0px 100px 100px 100px;
+  width: 500px;
+  height: 350px;
 }
