@@ -146,3 +146,26 @@ img {
   font-size: 25px;
   text-align: right;
 }
+
+/*----CALL TO ACTION----*/
+
+.call-to-action {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 50px 0;
+  margin: 100px auto 100px auto;
+  width: 75%;
+  background-color: #3882f6;
+  color: #f9faf8;
+  border-radius: 5px;
+}
+
+.cta-item button {
+  padding: 8px 16px;
+  background-color: #3882f6;
+  border: #f9faf8 2px solid;
+  border-radius: 5px;
+  color: #f9faf8;
+  font-weight: bolder;
+}
